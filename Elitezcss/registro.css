@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: rgb(30, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8e0202;
+}
+
+p {
+    color: #ccc;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    background-color: rgb(53, 1, 1);
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(53, 2, 1);
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #dc6e6e;
+    opacity: 1;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #8e0202;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 10px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #b70000;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../imagesElitez/fondologin.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.logo {
+    display: block;
+    margin: 0 0 10px;
+    width: 275px;
+    height: auto;
+}
